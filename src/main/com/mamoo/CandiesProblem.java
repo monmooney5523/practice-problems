@@ -43,6 +43,9 @@ public class CandiesProblem {
         }
     }
 
+    // Runtime: 1ms Beats 86.88%
+    // Memory: 42.56 MB Beats 37.89%
+    // This solution is optimal as it has the best runtime and memory
     public List<Boolean> kidsWithCandiesV2(int[] candies, int extraCandies) {
 
         if(candies.length > 0){
@@ -72,6 +75,8 @@ public class CandiesProblem {
         }
     }
 
+    // Runtime: 2ms Beats 17.96%
+    // Memory: 42.70 MB Beats 24.05%
     public List<Boolean> kidsWithCandiesV3(int[] candyCounts, int extraCandies) {
         List<Boolean> kidsWithCandies = new ArrayList<>();
         if (candyCounts.length > 0) {
